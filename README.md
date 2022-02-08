@@ -1,2 +1,65 @@
-# MiTTPP-Projekt
-Projektni zadatak iz kolegija Metode i tehnike testiranja programske podrške
+# MiTTPP Project
+
+This is project made for Methods and techniques of software support testing.
+
+The [Ferivi webshop](https://ferivisport.hr/) is used for the purposes of testing.  
+
+### Used softwares
+
+- Visual Studio 
+- Katalin Recorder
+- Katalon Studio
+- Mozilla Firefox
+
+## Katalon Recorder & Studio - Selenium test generator
+Katalon Recorder is used for recording test cases. Katalon Studio performs test cases execution and allows exporting test cases in C#(WebDriver+NUnit) format suitable for further testing in Visual Studio. Registration is required for using.
+
+This project is made in Katalon Studio 5.5.3.
+
+## Visual Studio
+Requirements for testing cases imported from Katalon Studio:
+- NUnit framework (3.13.2)
+- Selenium WebDriver (4.1.0)
+- Selenium Support(4.1.0)
+- Nunit3 Test Adapter (4.1.0)
+- Selenium WebDriver – Gecko Driver (0.30.0.1)
+
+This project is made in Visual Studio 2019.
+
+## Test Cases
+
+- Login and Logout
+  - this case tests the site's behavior when logging in to an already registered user and logging out
+- Subscribe to newsletter
+  - this case tests the option of subscribing to newsletter providing an email
+- Find all footwear size EU43
+  - this case tests the filter option, choosing filters "footwear" and "size=43"
+- Find every Adidas Originals men product
+  - this case tests the filter option, choosing filters "brand_adidasoriginals" and "men"
+- Browse and add product to cart
+  - this case tests browsing, choosing product, choosing size and adding to cart
+- Remove product from cart
+  - this case tests editing the cart and removing top item in it
+- Check cart and increase number of product
+  - this case tests cart option and increasing number of product
+- Fill cart and proceed
+  - this case tests adding two items in cart, checking cart and proceeding to payment details
+- Change delivery address
+  - this case tests editing user information, specifically changing delivery address
+- Find locations
+  - this case maneuvers the page to location information
+
+## How to use?
+Download [Visual Studio](https://visualstudio.microsoft.com/downloads/)\
+Download [Katalon Recorder](https://www.katalon.com/katalon-recorder-ide/) * \
+Download [Katalon Studio](https://www.katalon.com/katalon-studio/) * \
+Download [Mozilla Firefox](https://www.mozilla.org/hr/firefox/new/) * \
+Download [code](https://github.com/AmelaVorgic/MiTTPP-Projekt) and open [MiTTPP-Projekt.sln](https://github.com/AmelaVorgic/MiTTPP-Projekt/blob/main/MiTTPP-Projekt.sln) in Visual Studio. 
+
+
+*not necessary for code included in project, required only to perform new tests
+
+
+
+## Author
+- [@AmelaVorgic](https://github.com/AmelaVorgic)
