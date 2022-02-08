@@ -14,7 +14,7 @@ The [Ferivi webshop](https://ferivisport.hr/) is used for the purposes of testin
 - Mozilla Firefox
 
 ## Katalon Recorder & Studio - Selenium test generator
-![alt text](https://automated-360.com/wp-content/uploads/2017/10/logo-katalon.png) 
+![alt text](https://automated-360.com/wp-content/uploads/2017/10/logo-katalon.png) \
 Katalon Recorder is used for recording test cases. Katalon Studio performs test cases execution and allows exporting test cases in C#(WebDriver+NUnit) format suitable for further testing in Visual Studio. Registration is required for using.
 
 Test class should have methods:
@@ -25,7 +25,7 @@ Test class should have methods:
 This project is made in Katalon Studio 5.5.3.
 
 ## Visual Studio
-![alt text](https://magoarcade.org/wp/wp-content/uploads/2020/11/Microsoft-Visual-Studio-logo1.png) 
+![alt text](https://magoarcade.org/wp/wp-content/uploads/2020/11/Microsoft-Visual-Studio-logo1.png) \
 Requirements for testing cases imported from Katalon Studio:
 - NUnit framework (3.13.2)
 - Selenium WebDriver (4.1.0)
