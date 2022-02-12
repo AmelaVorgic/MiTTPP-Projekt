@@ -185,4 +185,4 @@ Download [code](https://github.com/AmelaVorgic/MiTTPP-Projekt) and open [MiTTPP-
 
 
 ## Author
-- [@AmelaVorgic](https://github.com/AmelaVorgic)
+[@AmelaVorgic](https://github.com/AmelaVorgic)
