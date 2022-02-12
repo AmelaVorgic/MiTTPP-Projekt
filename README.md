@@ -35,6 +35,35 @@ Requirements for testing cases imported from Katalon Studio:
 
 This project is made in Visual Studio 2019.
 
+## Testing process
+- Prepare all needed softwares in advance.
+- Think of test cases that would be suitable for testing.
+- Make documentation for test cases.
+- Open Mozilla Firefox web browser and install Katalon Recorder browser plugin
+- Start Katalon Recorder
+- Click on "Record" button in main menu for starting recording session.
+- Do steps in browser as you wish your test case goes.
+- When finished with test case, stop recording session.
+- Check steps and run script.
+- Export script in C#(WebDriver+Nunit) format.
+- Run Visual Studio and create new C# Unit Test (.NET Framework) project
+- Via Project->Manage NuGet Packages add:
+  - NUnit framework (3.13.0)
+  - Selenium WebDriver (3.141.0)
+  - Selenium Support(3.141.0)
+  - Nunit3 Test Adapter (3.17.0)
+  - Selenium WebDriver – Gecko Driver (0.28.0)
+- Check installed packages.
+- In UnitTest class add previously exported tests in C#(WebDriver+Nunit) format.
+- Check if class has methods:
+  - [SetUp]
+  - [TearDown]
+  - [Test]
+- If neccesary fill in test (example: declaration of random variables)
+- Click on Build -> Build Solution
+- Click on Test -> Test Explorer
+- Run tests
+
 ## Test Cases
 
 - Login and Logout
