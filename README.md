@@ -68,6 +68,16 @@ This project is made in Visual Studio 2019.
 
 - Login and Logout
   - this case tests the site's behavior when logging in to an already registered user and logging out
+
+| Step | Action |
+| ------ | ------ |
+| 1 | Go to URL [https://ferivisport.hr/]|
+| 2 | Click on "user" |
+| 3 | Fill in email and password |
+| 4 | Submit |
+| 5 | Click on "user" |
+| 6 | Click on "Odjavi me" |
+
 - Subscribe to newsletter
   - this case tests the option of subscribing to newsletter providing an email
 - Find all footwear size EU43
