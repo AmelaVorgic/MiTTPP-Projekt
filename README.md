@@ -9,7 +9,7 @@ The [Ferivi webshop](https://ferivisport.hr/) is used for the purposes of testin
 ### Used softwares
 
 - Visual Studio 
-- Katalin Recorder
+- Katalon Recorder
 - Katalon Studio
 - Mozilla Firefox
 
@@ -71,6 +71,7 @@ This project is made in Visual Studio 2019.
 
 | Step | Action |
 | ------ | ------ |
+| Preconditions | User has profile |
 | 1 | Go to URL [https://ferivisport.hr/]|
 | 2 | Click on "user" |
 | 3 | Fill in email and password |
@@ -80,22 +81,96 @@ This project is made in Visual Studio 2019.
 
 - Subscribe to newsletter
   - this case tests the option of subscribing to newsletter providing an email
+
+| Step | Action |
+| ------ | ------ |
+| Preconditions | User has profile |
+|   | User is logged in |
+| 1 | Find element "newsletter" |
+| 2 | Fill in email |
+| 3 | Submit |
+
 - Find all footwear size EU43
   - this case tests the filter option, choosing filters "footwear" and "size=43"
+
+| Step | Action |
+| ------ | ------ |
+| 1 | Filter to "footwear" |
+| 2 | Filter to "size=43" |
+
 - Find every Adidas Originals men product
   - this case tests the filter option, choosing filters "brand_adidasoriginals" and "men"
+
+| Step | Action |
+| ------ | ------ |
+| 1 | Open "men" section|
+| 2 | Filter to "brand_adidasoriginals" |
+
+
 - Browse and add product to cart
   - this case tests browsing, choosing product, choosing size and adding to cart
+
+| Step | Action |
+| ------ | ------ |
+| 1 | Select item|
+| 2 | Choose sizing |
+| 3 | Add to cart|
+
 - Remove product from cart
   - this case tests editing the cart and removing top item in it
+
+| Step | Action |
+| ------ | ------ |
+| Preconditions | There are products in cart |
+| 1 | Click on "cart"|
+| 2 | Click on "Uredite košaricu" |
+| 3 | Click on "Uklonite proizvod"|
+
 - Check cart and increase number of product
   - this case tests cart option and increasing number of product
+
+| Step | Action |
+| ------ | ------ |
+| Preconditions | There are products in cart |
+| 1 | Click on "cart"|
+| 2 | Click on "Uredite košaricu" |
+| 3 | Click on plus sign for number of products|
+
 - Fill cart and proceed
   - this case tests adding two items in cart, checking cart and proceeding to payment details
+
+| Step | Action |
+| ------ | ------ |
+| 1 | Select item|
+| 2 | Choose sizing |
+| 3 | Add to cart|
+| 4 | Select item|
+| 5 | Choose sizing |
+| 6 | Add to cart|
+| 7 | Click on "cart"|
+| 8 | Click on "Uredite košaricu" |
+| 9 | Click on "Završite kupovinu"|
+
 - Change delivery address
   - this case tests editing user information, specifically changing delivery address
+
+| Step | Action |
+| ------ | ------ |
+| Preconditions | User has profile |
+|   | User is logged in |
+|   | Delivery address is previously added |
+| 1 | Click on "user"|
+| 2 | Click on "Uredi" for "Adresa naplate" |
+| 3 | Fill in with new address information|
+| 4 | Submit|
+
+
 - Find locations
-  - this case maneuvers the page to location information
+  - this case maneuvers the page to information about store locations
+
+| Step | Action |
+| 1 | Click on "O NAMA" |
+| 2 | Click on "Lokacije" |
 
 ## How to use?
 Download [Visual Studio](https://visualstudio.microsoft.com/downloads/)\
