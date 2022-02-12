@@ -169,6 +169,7 @@ This project is made in Visual Studio 2019.
   - this case maneuvers the page to information about store locations
 
 | Step | Action |
+| ------ | ------ |
 | 1 | Click on "O NAMA" |
 | 2 | Click on "Lokacije" |
 
