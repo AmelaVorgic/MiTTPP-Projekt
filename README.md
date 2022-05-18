@@ -25,7 +25,6 @@ Test class should have methods:
 This project is made in Katalon Studio 5.5.3.
 
 ## Visual Studio
-![alt text](https://magoarcade.org/wp/wp-content/uploads/2020/11/Microsoft-Visual-Studio-logo1.png) \
 Requirements for testing cases imported from Katalon Studio:
 - NUnit framework (3.13.2)
 - Selenium WebDriver (4.1.0)
